@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfix{
+	 *zoom: 1;}
+
+/* display: inline-block for ie */
+.header .logo, .r-top address, .sity, .add-bell, .top-menu menu li, .service-middle ul li, .price-hanging-tv article ul li p, .bot-price-main ul li p, .masters article, .photo article, .menu-catalog menu li, .sortibg ul li, .photo-product ul li, .btn-basket, .raiting, .main-calc, .inline, .pickup address, .pay {
+	zoom:1; /* для ие */
+	*display:inline; /* для ие */
+}
+.top {background:#3e9426 url(../images/bg/bg-top.jpg) 50% 0 no-repeat}
+.link-bell:before {background:url(../images/bg/icon.png) -33px 0 no-repeat;}
+.r-top address:before {background:url(../images/bg/icon.png) 0 0 no-repeat}
+
+.top-menu menu li {
+	*margin-right:0
+}
+.action .price span {
+	right:20px;bottom:-4px;
+}
+.action:before {
+	width:42px;
+	height:43px;
+	background:url(../images/bg/icon.png) 0 -28px no-repeat;
+}
+.action:after {display:none}
+.service-middle ul li .icon {background:#3e9426}
+.price-hanging-tv:before {background:url(../images/bg/icon.png) -60px 0 no-repeat}
+.user-rewiews h4:after {background:url(../images/bg/icon.png) -75px -347px no-repeat}
+.i-texter:before {background:url(../images/bg/icon.png) -117px -345px no-repeat}
+.delivery:before {background:url(../images/bg/icon.png) -64px -473px no-repeat}
+.pickup address:before {background:url(../images/bg/icon.png) -117px -468px no-repeat}  
+.pay:before {background:url(../images/bg/icon.png) 0 -513px no-repeat}

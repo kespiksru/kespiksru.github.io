@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="254px" height="180px" viewBox="0 0 254 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>tele4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-8.50079908e-05%" y1="49.9999279%" x2="100%" y2="49.9999279%" id="linearGradient-1">
+            <stop stop-color="#B2B2B2" offset="0%"></stop>
+            <stop stop-color="#575756" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tele4" transform="translate(-24.000000, -1.000000)">
+            <polygon id="Shape" fill="#3C3C3B" fill-rule="nonzero" points="277.571 153.037 31.156 170.893 31.156 8.393 277.571 18.317"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero" points="272 135.18 36.728 153.037 36.728 14.346 272 24.27"></polygon>
+            <polygon id="Shape" fill="#262626" fill-rule="nonzero" points="31.156 8.393 31.156 170.893 24.738 164.65 24.738 12.15"></polygon>
+            <path d="M159.835,4 C167.904,4 180.22,42.344 180.22,89.643 C180.22,136.942 167.904,175.286 159.835,175.286" id="Shape" stroke="#FFFFFF" stroke-width="4"></path>
+            <polygon id="Triangle" stroke="#FFFFFF" fill="#FFFFFF" transform="translate(161.587209, 5.587209) rotate(126.000000) translate(-161.587209, -5.587209) " points="157.587209 1.58720899 165.587209 3.19102912 159.977174 9.58720899"></polygon>
+            <polygon id="Triangle-Copy" stroke="#FFFFFF" fill="#FFFFFF" transform="translate(159.587209, 176.587209) scale(1, -1) rotate(126.000000) translate(-159.587209, -176.587209) " points="155.587209 172.587209 163.587209 174.191029 157.977174 180.587209"></polygon>
+        </g>
+    </g>
+</svg>

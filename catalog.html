@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Page</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/mobile.css" type="text/css" />
+    <link rel="stylesheet" href="css/jquery.formstyler.css" type="text/css" />
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/main.js"></script>
+		<style>
+			.jq-checkbox {
+				display: inline-block;
+			}
+			input[type='checkbox'] {
+				display: none;
+			}
+		</style>
+</head>
+<body>
+<div class="page">
+    <header class="header" role="banner">
+		<div class="top">
+			<div class="c-container clearfix">
+				<div class="l-top">
+					<a href="/" class="logo"><img src="images/logo.svg" alt="" /></a>
+					<div class="sity">
+						<span>Ваш город:</span>
+						<a href="#">Санкт-Петербург</a>
+						<ul>
+							<li><a href="#">Москва</a></li>
+							<li><a href="#">Санкт-Петербург</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="r-top">
+					<address>
+						<i class="icon-tel"></i>
+						<p>
+							<span class="work-time">
+								<span>Пн - Сб</span> <span>9:00 - 21:00</span>
+							</span>
+							<span><a href="tel:7 (981) 751-74-91">+7 (981) 751-74-91</a></span>  <span><a href="tel:7 (921) 653-19-77">+7 (921) 653-19-77</a></span>
+							<i class="off"></i>
+						</p>
+					</address>
+				</div>
+				<div class="work-time">
+					<i class="icon-time"></i>
+					<span>Пн - Сб</span> <span>9:00 - 21:00</span>
+				</div>
+			</div>
+		</div>
+		<i class="add-menu"></i>
+		<div class="top-menu">
+			<div class="c-container">
+				<a href="/" class="logo"><img src="images/logo.svg" alt="" /></a>
+				<menu>
+					<li><a href="/">Установка</a></li>
+					<li><a href="photo.html">Фото работ</a></li>
+					<li><a href="video.html">Видео</a></li>
+					<li><a href="rewiews.html">Отзывы</a></li>
+					<li><a href="how-choose.html">Как выбрать кронштейн</a></li>
+					<li class="active"><a href="catalog.html">Каталог</a></li>
+				</menu>
+				<div class="menu-catalog ">
+					<div class="c-container">
+						<menu>
+							<li class="sub-m"><a href="#">Кронштейны</a>
+								<ul>
+									<li><a href="#">для телевизоров и мониторов</a></li>
+									<li><a href="#">для ресиверов, DVD и тюнеров</a></li>
+									<li><a href="#">для проекторов</a></li>
+									<li><a href="#">для акустики</a></li>
+									<li><a href="#">для микроволновых печей и СВЧ</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Тумбы</a></li>
+							<li class="sub-m"><a href="#">Стойки</a>
+								<ul>
+									<li><a href="#">для телевизоров и мониторов</a></li>
+									<li><a href="#">для ресиверов, DVD и тюнеров</a></li>
+									<li><a href="#">для проекторов</a></li>
+									<li><a href="#">для акустики</a></li>
+									<li><a href="#">для микроволновых печей и СВЧ</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Экраны</a></li>
+							<li><a href="#">ПЗУ</a></li>
+							<li><a href="#">Кабель</a></li>
+						</menu>
+					</div>
+				</div>
+			</div>
+		</div>
+    </header><!--.header-->
+    <div class="middle">
+		<div class="menu-catalog ">
+			<div class="c-container">
+				<menu>
+					<li class="sub-m"><a href="#">Кронштейны</a>
+						<ul>
+							<li><a href="#">для телевизоров и мониторов</a></li>
+							<li><a href="#">для ресиверов, DVD и тюнеров</a></li>
+							<li><a href="#">для проекторов</a></li>
+							<li><a href="#">для акустики</a></li>
+							<li><a href="#">для микроволновых печей и СВЧ</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Тумбы</a></li>
+					<li class="sub-m"><a href="#">Стойки</a>
+						<ul>
+							<li><a href="#">для телевизоров и мониторов</a></li>
+							<li><a href="#">для ресиверов, DVD и тюнеров</a></li>
+							<li><a href="#">для проекторов</a></li>
+							<li><a href="#">для акустики</a></li>
+							<li><a href="#">для микроволновых печей и СВЧ</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Экраны</a></li>
+					<li><a href="#">ПЗУ</a></li>
+					<li><a href="#">Кабель</a></li>
+				</menu>
+			</div>
+		</div>
+		<div class="c-container clearfix">
+			<div class="left-catalog">
+				<div class="articul-search">
+					<p>поиск по артикулу:</p>
+					<div class="c-search">
+						<input type="text" value="" placeholder="Артикул..." />
+						<label class="bt-search">
+							<input type="submit" value="" />
+						</label>
+					</div>
+				</div>
+				<nav class="category-menu">
+					<h6>Параметры:</h6>
+
+					<form action="#">
+						<ul>
+							<li><a href="#">Тип</a>
+								<ul>
+									<li>
+										<label><input type="checkbox" checked name="" value="" />настенные</label>
+									</li>
+									<li>
+										<label><input type="checkbox" name="" value="" />потолочные</label>
+									</li>
+									<li>
+										<label><input type="checkbox" name="" value="" />настольные</label>
+									</li>
+									<li>
+										<label><input type="checkbox" name="" value="" />моторизированные</label>
+									</li>
+									<li>
+										<label><input type="checkbox" name="" value="" />для изогнутых тв</label>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">Диагональ ТВ</a>
+								<ul>
+									<li>
+										<label><input type="checkbox" name="" checked="checked" value="" />до 26 дюймов</label>
+									</li>
+									<li>
+										<label><input type="checkbox" name="" value="" />26- 40 дюймов</label>
+									</li>
+									<li>
+										<label><input type="checkbox" name="" value="" />от 40 дюймов</label>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">Регулировка</a>
+								<ul>
+									<li>
+										<label><input type="checkbox" name="" value="" />фиксированные</label>
+									</li>
+									<li>
+										<label><input type="checkbox" name="" value="" />с наклоном</label>
+									</li>
+									<li>
+										<label><input type="checkbox" name="" value="" />с поворотом и наклоном</label>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">Размер VESA</a>
+								<ul>
+									<li>
+										<label><input type="checkbox" name="" value="" />от 75х75 до 100х100</label>
+									</li>
+									<li>
+										<label><input type="checkbox" name="" value="" />от 100х100 до 200х200</label>
+									</li>
+									<li>
+										<label><input type="checkbox" name="" value="" />от 200х200 до 400х400</label>
+									</li>
+									<li>
+										<label><input type="checkbox" name="" value="" />от 400х400 до 900х600</label>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">Цвет</a>
+								<ul>
+									<li>
+										<label><input type="checkbox" name="" value="" />чёрные</label>
+									</li>
+									<li>
+										<label><input type="checkbox" name="" value="" />серые</label>
+									</li>
+									<li>
+										<label><input type="checkbox" name="" value="" />белые</label>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<p class="txt-center">
+							<input type="submit" value="Сбросить" /> 
+							
+							<input type="submit" value="Применить" />
+						</p>
+					</form>
+				</nav>
+			</div>
+			<div class="container-catalog">
+				<div class="catalog">
+					<div class="sortibg">
+						<ul>
+							<li>Найдено <span style="color: #387414;font-size: 16px;font-weight: bold;">163</span> вариантов</li>
+							<li>Сортировка по увеличению цены</li>
+						</ul>
+					</div>
+					<section class="clearfix">
+						<div class="photo-product">
+							<figure class="visible"><a class="fancybox" href="#poop-photo"><img src="images/cponcht.jpg" alt="" /></a></figure>
+							<figure><a class="fancybox" href="#poop-photo"><img src="images/r1.jpg" alt="" /></a></figure>
+							<ul>
+								<li><img src="images/cponcht.jpg" alt="" /></li>
+								<li><img src="images/r1.jpg" alt="" /></li>
+							</ul>
+						</div>
+						<div class="all-description-product clearfix">
+							<h2><a href="#">Кронштейн ITECHmount LCD300B</a></h2>
+							<div class="description-product">
+								<ul><li><span style="margin: 0px; padding: 0px; border: 0px; font-stretch: inherit; font-size: 13px; line-height: 17px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; vertical-align: baseline; color: rgb(76, 75, 75); text-align: justify; background-color: rgb(255, 255, 255);">Диагональ</span><span style="margin: 0px; padding: 0px; border: 0px; font-stretch: inherit; font-size: 13px; line-height: 17px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; vertical-align: baseline; color: rgb(76, 75, 75); text-align: justify; background-color: rgb(255, 255, 255);">&nbsp;телевизора:.....</span><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">13"- 27"&nbsp;</span><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">дюймов</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Регулировка:....................</span><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Фиксированный.</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Размер VESA:..................75х75, 100х100.&nbsp;</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Нагрузка:..........................до 15 кг.&nbsp;</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Отступ от стены:..............1,5 см.</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">В комплекте:....................Болты.</span></li></ul>
+								<div class="articul-product">
+									<span>Артикул LCD300B</span>
+									<div class="raiting">
+										<span class="star "></span>
+										<span class="star "></span>
+										<span class="star "></span>
+										<span class="star "></span>
+										<span class="star no-star"></span>
+									</div>
+								</div>
+							</div>
+							<div class="r-description-product">
+								<div class="nal-product">
+									<p class="price">350 руб.</p>
+									<p class="es-nal">В наличии</p>
+									<p class="small">Гарантия 1 год</p>
+								</div>
+								<a href="#poop-checkout" class="fancybox btn-basket">купить</a>
+							</div>
+						</div>
+					</section>
+					<section class="clearfix">
+						<div class="photo-product">
+							<figure class="visible"><a class="fancybox" href="#poop-photo"><img src="images/cponcht.jpg" alt="" /></a></figure>
+							<figure><a class="fancybox" href="#poop-photo"><img src="images/r1.jpg" alt="" /></a></figure>
+							<ul>
+								<li><img src="images/cponcht.jpg" alt="" /></li>
+								<li><img src="images/r1.jpg" alt="" /></li>
+							</ul>
+						</div>
+						<div class="all-description-product clearfix">
+							<h2><a href="#">Кронштейн ITECHmount LCD300B</a></h2>
+							<div class="description-product">
+								<ul><li><span style="margin: 0px; padding: 0px; border: 0px; font-stretch: inherit; font-size: 13px; line-height: 17px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; vertical-align: baseline; color: rgb(76, 75, 75); text-align: justify; background-color: rgb(255, 255, 255);">Диагональ</span><span style="margin: 0px; padding: 0px; border: 0px; font-stretch: inherit; font-size: 13px; line-height: 17px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; vertical-align: baseline; color: rgb(76, 75, 75); text-align: justify; background-color: rgb(255, 255, 255);">&nbsp;телевизора:.....</span><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">13"- 27"&nbsp;</span><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">дюймов</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Регулировка:....................</span><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Фиксированный.</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Размер VESA:..................75х75, 100х100.&nbsp;</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Нагрузка:..........................до 15 кг.&nbsp;</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Отступ от стены:..............1,5 см.</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">В комплекте:....................Болты.</span></li></ul>
+								<div class="articul-product">
+									<span>Артикул LCD300B</span>
+									<div class="raiting">
+										<span class="star "></span>
+										<span class="star "></span>
+										<span class="star "></span>
+										<span class="star "></span>
+										<span class="star no-star"></span>
+									</div>
+								</div>
+							</div>
+							<div class="r-description-product">
+								<div class="nal-product">
+									<p class="price">350 руб.</p>
+									<p class="es-nal">В наличии</p>
+									<p class="small">Гарантия 1 год</p>
+								</div>
+								<a href="#poop-checkout" class="fancybox btn-basket">купить</a>
+							</div>
+						</div>
+					</section>
+					<section class="clearfix">
+						<div class="photo-product">
+							<figure class="visible"><a class="fancybox" href="#poop-photo"><img src="images/cponcht.jpg" alt="" /></a></figure>
+							<figure><a class="fancybox" href="#poop-photo"><img src="images/r1.jpg" alt="" /></a></figure>
+							<ul>
+								<li><img src="images/cponcht.jpg" alt="" /></li>
+								<li><img src="images/r1.jpg" alt="" /></li>
+							</ul>
+						</div>
+						<div class="all-description-product clearfix">
+							<h2><a href="#">Кронштейн ITECHmount LCD300B</a></h2>
+							<div class="description-product">
+								<ul><li><span style="margin: 0px; padding: 0px; border: 0px; font-stretch: inherit; font-size: 13px; line-height: 17px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; vertical-align: baseline; color: rgb(76, 75, 75); text-align: justify; background-color: rgb(255, 255, 255);">Диагональ</span><span style="margin: 0px; padding: 0px; border: 0px; font-stretch: inherit; font-size: 13px; line-height: 17px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; vertical-align: baseline; color: rgb(76, 75, 75); text-align: justify; background-color: rgb(255, 255, 255);">&nbsp;телевизора:.....</span><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">13"- 27"&nbsp;</span><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">дюймов</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Регулировка:....................</span><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Фиксированный.</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Размер VESA:..................75х75, 100х100.&nbsp;</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Нагрузка:..........................до 15 кг.&nbsp;</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Отступ от стены:..............1,5 см.</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">В комплекте:....................Болты.</span></li></ul>
+								<div class="articul-product">
+									<span>Артикул LCD300B</span>
+									<div class="raiting">
+										<span class="star "></span>
+										<span class="star "></span>
+										<span class="star "></span>
+										<span class="star "></span>
+										<span class="star no-star"></span>
+									</div>
+								</div>
+							</div>
+							<div class="r-description-product">
+								<div class="nal-product">
+									<p class="price">350 руб.</p>
+									<p class="es-nal">В наличии</p>
+									<p class="small">Гарантия 1 год</p>
+								</div>
+								<a href="#poop-checkout" class="fancybox btn-basket">купить</a>
+							</div>
+						</div>
+					</section>
+					<section class="clearfix">
+						<div class="photo-product">
+							<figure class="visible"><a class="fancybox" href="#poop-photo"><img src="images/cponcht.jpg" alt="" /></a></figure>
+							<figure><a class="fancybox" href="#poop-photo"><img src="images/r1.jpg" alt="" /></a></figure>
+							<ul>
+								<li><img src="images/cponcht.jpg" alt="" /></li>
+								<li><img src="images/r1.jpg" alt="" /></li>
+							</ul>
+						</div>
+						<div class="all-description-product clearfix">
+							<h2><a href="#">Кронштейн ITECHmount LCD300B</a></h2>
+							<div class="description-product">
+								<ul><li><span style="margin: 0px; padding: 0px; border: 0px; font-stretch: inherit; font-size: 13px; line-height: 17px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; vertical-align: baseline; color: rgb(76, 75, 75); text-align: justify; background-color: rgb(255, 255, 255);">Диагональ</span><span style="margin: 0px; padding: 0px; border: 0px; font-stretch: inherit; font-size: 13px; line-height: 17px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; vertical-align: baseline; color: rgb(76, 75, 75); text-align: justify; background-color: rgb(255, 255, 255);">&nbsp;телевизора:.....</span><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">13"- 27"&nbsp;</span><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">дюймов</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Регулировка:....................</span><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Фиксированный.</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Размер VESA:..................75х75, 100х100.&nbsp;</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Нагрузка:..........................до 15 кг.&nbsp;</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Отступ от стены:..............1,5 см.</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">В комплекте:....................Болты.</span></li></ul>
+								<div class="articul-product">
+									<span>Артикул LCD300B</span>
+									<div class="raiting">
+										<span class="star "></span>
+										<span class="star "></span>
+										<span class="star "></span>
+										<span class="star "></span>
+										<span class="star no-star"></span>
+									</div>
+								</div>
+							</div>
+							<div class="r-description-product">
+								<div class="nal-product">
+									<p class="price">350 руб.</p>
+									<p class="es-nal">В наличии</p>
+									<p class="small">Гарантия 1 год</p>
+								</div>
+								<a href="#poop-checkout" class="fancybox btn-basket">купить</a>
+							</div>
+						</div>
+					</section>
+					<section class="clearfix">
+						<div class="photo-product">
+							<figure class="visible"><a class="fancybox" href="#poop-photo"><img src="images/cponcht.jpg" alt="" /></a></figure>
+							<figure><a class="fancybox" href="#poop-photo"><img src="images/r1.jpg" alt="" /></a></figure>
+							<ul>
+								<li><img src="images/cponcht.jpg" alt="" /></li>
+								<li><img src="images/r1.jpg" alt="" /></li>
+							</ul>
+						</div>
+						<div class="all-description-product clearfix">
+							<h2><a href="#">Кронштейн ITECHmount LCD300B</a></h2>
+							<div class="description-product">
+								<ul><li><span style="margin: 0px; padding: 0px; border: 0px; font-stretch: inherit; font-size: 13px; line-height: 17px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; vertical-align: baseline; color: rgb(76, 75, 75); text-align: justify; background-color: rgb(255, 255, 255);">Диагональ</span><span style="margin: 0px; padding: 0px; border: 0px; font-stretch: inherit; font-size: 13px; line-height: 17px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; vertical-align: baseline; color: rgb(76, 75, 75); text-align: justify; background-color: rgb(255, 255, 255);">&nbsp;телевизора:.....</span><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">13"- 27"&nbsp;</span><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">дюймов</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Регулировка:....................</span><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Фиксированный.</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Размер VESA:..................75х75, 100х100.&nbsp;</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Нагрузка:..........................до 15 кг.&nbsp;</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">Отступ от стены:..............1,5 см.</span></li><li><span style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: 17px; text-align: justify; background-color: rgb(255, 255, 255);">В комплекте:....................Болты.</span></li></ul>
+								<div class="articul-product">
+									<span>Артикул LCD300B</span>
+									<div class="raiting">
+										<span class="star "></span>
+										<span class="star "></span>
+										<span class="star "></span>
+										<span class="star "></span>
+										<span class="star no-star"></span>
+									</div>
+								</div>
+							</div>
+							<div class="r-description-product">
+								<div class="nal-product">
+									<p class="price">350 руб.</p>
+									<p class="es-nal">В наличии</p>
+									<p class="small">Гарантия 1 год</p>
+								</div>
+								<a href="#poop-checkout" class="fancybox btn-basket">купить</a>
+							</div>
+						</div>
+					</section>
+					<div class="bot-nav">
+						<ul>
+							<li class="last-all"><a href="#"></a></li>
+							<li class="last"><a href="#"></a></li>
+							<li><a href="#">1</a></li>
+							<li class="active"><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li class="first"><a href="#"></a></li>
+							<li class="first-all"><a href="#"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="delivery-transfer">
+			<div class="c-container clearfix">
+				<div class="delivery">
+					<p><strong>Доставка 350р.</strong> в пределах МКАД до Ваших дверей 
+на следующий рабочий день.<br /> 
+Бесплатно при покупке от 5000р!</p>
+				</div>
+				<div class="pickup">
+					<address><strong>Самовывоз</strong> м. Алексеевская</address>
+				</div>
+				<div class="pay">
+					<p><strong>Оплата</strong> производится при получении курьеру в руки или банковским переводом.</p>
+				</div>
+			</div>
+		</div>  
+    </div><!--.middle-->
+	<footer class="footer" role="contentinfo">
+		<div class="c-container clearfix">
+			<div class="l-footer">
+				<address>
+					<p class="adr-mail">tvpodves@mail.ru</p>
+				</address>
+				<div class="add-bell">
+					<a href="javascript:void(0)" class="link-bell">заказать звонок специалиста</a>
+					<div class="form-bot-mail">
+						<form action="#">
+							<label class="i-txt">
+								<input type="text" value="" placeholder="Ваше имя..." />
+							</label>
+							<label class="i-email">
+								<input type="email" value="" placeholder="или E-mail..." />
+							</label>
+							<label class="i-tel">
+								<input type="tel" id="phone" value="" placeholder="Ваш номер телефона..." />
+							</label>
+							<textarea placeholder="тема вопроса.."></textarea>
+							<p class="txt-center">
+								<input type="submit" value="отправить" />
+								<!-- <input type="submit" value="отправленно" class="ess-mail" /> -->
+							</p>
+						</form>
+						<span class="off-form-bot-mail"></span>
+					</div>
+				</div>
+			</div>
+			<div class="r-footer">
+				<address>
+					<p><a href="tel:7 (981) 751-74-91">+7 (981) 751-74-91</a></p>
+					<p><a href="tel:7 (921) 653-19-77">+7 (921) 653-19-77</a></p>
+				</address>
+				<a href="/" class="logo"><img src="images/logo-podves.png" alt="" /></a>
+			</div>
+		</div>
+	</footer><!--.footer -->
+</div><!-- /page -->
+<div id="poop-photo" class="reviewing">
+	<div class="c-reviewing">
+		<h3>название кронштейна</h3>
+		<span class="price">350 руб.</span>
+		<div class="reviewing-photo clearfix">
+			<div class="box-photo visible">
+				<span><img src="images/cponcht.jpg" alt="" /></span>
+			</div>
+			<div class="box-photo">
+				<span><img src="images/cponcht.jpg" alt="" /></span>
+			</div>
+			<div class="box-photo">
+				<span><img src="images/cponcht.jpg" alt="" /></span>
+			</div>
+			<div class="box-photo">
+				<span><img src="images/cponcht.jpg" alt="" /></span>
+			</div>
+			<div class="box-photo">
+				<span><img src="images/cponcht.jpg" alt="" /></span>
+			</div>
+			<ul>
+				<li class="active"><img src="images/cponcht.jpg" alt="" /></li>
+				<li><img src="images/cponcht.jpg" alt="" /></li>
+				<li><img src="images/cponcht.jpg" alt="" /></li>
+				<li><img src="images/cponcht.jpg" alt="" /></li>
+				<li><img src="images/cponcht.jpg" alt="" /></li>
+			</ul>
+		</div>
+		<h4>подробные характеристики</h4>
+		<div class="clearfix">
+			<div class="l-har">
+				<p>Фиксированный. Для телевизоров с диагональю 15"- 26" Размер VESA 75х75, 100х100. Нагрузка: до 25 кг. Отступ от стены: 1,8 см.</p>
+			</div>
+			<div class="r-har">
+				<div class="articul-product">
+					<span>Артикул LCD300B</span>
+					<div class="raiting">
+						<span class="star "></span>
+						<span class="star "></span>
+						<span class="star "></span>
+						<span class="star "></span>
+						<span class="star no-star"></span>
+					</div>
+					<div class="bot-har clearfix">
+						<div class="l-bot-har">
+							<p class="es-nal">В наличии</p>
+							<p class="small">Гарантия 1 год</p>
+						</div>
+						<a href="#senks" class="btn-basket fancybox">купить</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="checkout" id="poop-checkout">
+	<div class="t-checkout">Оформить заказ:</div>
+	<form action="#">
+		<div class="c-checkout clearfix">
+			<figure><img src="images/cponcht.jpg" alt="" /></figure>
+			<div class="r-checkout">
+				<h4>Кронштейн ITECHmount LCD300B</h4>
+				<p class="green">Артикул LCD300B</p>
+				<div class="main-calc">
+					<a href="#" class="minus"></a>
+					<input type="text" value="1" onkeydown="" />
+					<a href="#" class="plus"></a>
+					<p>кол-во</p>
+				</div>	
+			</div>
+		</div>
+		<div class="c-checkout">
+			<div class="line-block">
+				<span class="inline">Ваш телефон:</span>
+				<input type="tel" value="" />
+			</div>
+			<div class="line-block">
+				<span class="inline">Ваше имя:</span>
+				<input type="text" value="" />
+			</div>
+			<div class="line-block">
+				<span class="inline">Установка:</span>
+				<input type="checkbox" checked="checked" value="" />
+			</div>
+			<!-- <div class="line-block">
+				<label><span class="inline">Доставка:</span>
+				<input type="radio" checked="checked" name="m" value="" /></label>
+				<label><span class="inline smv">Самовывоз:</span>
+				<input type="radio" name="m" value="" /></label>
+			</div> -->
+			<p class="txt-center"><input type="submit" class="fancybox" href="#senks" value="отправить" /></p>
+		</div>
+	</form>
+</div>
+
+<div class="senks" id="senks">
+	<p>Спасибо, менеджер свяжется с Вами <br> в ближайшее время!</p>
+	<p><a href="catalog.html" class="btn">Вернуться к каталогу</a></p>
+</div>
+
+	<script src="js/jquery.formstyler.min.js"></script>
+	<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+	<script type="text/javascript" src="fancybox/source/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="fancybox/source/helpers/jquery.fancybox-buttons.css" />
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+	<link rel="stylesheet" type="text/css" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" />
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+	<script type="text/javascript" src="fancybox/fancy.js"></script>
+
+</body>
+</html>

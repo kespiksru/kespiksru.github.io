@@ -1,0 +1,14 @@
+.category-menu > form > ul > li > ul {
+  display:none;
+}
+.opened2 ul {
+  display:block !important;
+}
+
+.opened2 > a {
+  background: #fdba5b !important;
+  color: #fff !important;
+}
+.opened2 > a:after {
+  content: ' \e84b ' !important;
+}

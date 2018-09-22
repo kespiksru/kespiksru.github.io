@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="180px" viewBox="0 0 320 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>tele6 — копия</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.000127511444%" y1="50.0000721%" x2="99.9997875%" y2="50.0000721%" id="linearGradient-1">
+            <stop stop-color="#B2B2B2" offset="0%"></stop>
+            <stop stop-color="#575756" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tele6-—-копия" transform="translate(0.000000, -1.000000)">
+            <polygon id="Shape" fill="#3C3C3B" fill-rule="nonzero" points="303.365 153.473 56.949 171.33 56.949 8.83 303.365 18.754"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero" points="297.794 135.616 62.521 153.473 62.521 14.783 297.794 24.706"></polygon>
+            <polygon id="Shape" fill="#262626" fill-rule="nonzero" points="56.949 8.83 56.949 171.33 50.531 165.087 50.531 12.587"></polygon>
+            <path d="M189.629,4.437 C197.698,4.437 210.014,42.781 210.014,90.08 C210.014,137.379 197.698,175.723 189.629,175.723" id="Shape" stroke="#FFFFFF" stroke-width="4"></path>
+            <path d="M315,72.613 C315.228192,79.997 256.030573,93.558 182.577636,96.382 C109.1247,99.206 49.2288533,90.224 49,82.839" id="Shape" stroke="#FFFFFF" stroke-width="4"></path>
+            <path d="M53.74,67.047 L53.74,69.979 C53.74,72.762 52.068,74.591 50.623,73.391 L42.668,66.783 C41.223,65.582 39.551,67.412 39.551,70.195 L39.551,84.455 C39.551,86.544 38.576,88.237 37.374,88.237 L23.259,88.237 C20.333,88.237 17.961,84.117 17.961,79.034 L17.961,40.006 C17.961,34.687 20.443,30.376 23.506,30.376 L34.05,30.376 C37.089,30.376 39.553,34.656 39.553,39.935 L39.553,50.494 C39.553,51.95 40.034,53.277 40.791,53.906 L52.504,63.636 C53.259,64.264 53.74,65.591 53.74,67.047 Z" id="Shape" fill="#262626" fill-rule="nonzero"></path>
+            <path d="M0.04,93.725 L0.04,90.793 C0.04,88.01 1.714,86.181 3.162,87.381 L11.13,93.989 C12.578,95.19 14.252,93.36 14.252,90.577 L14.252,76.317 C14.252,74.228 15.228,72.535 16.433,72.535 L30.573,72.535 C33.504,72.535 35.88,76.655 35.88,81.738 L35.88,120.766 C35.88,126.085 33.393,130.396 30.326,130.396 L19.765,130.396 C16.72,130.396 14.252,126.116 14.252,120.837 L14.252,110.278 C14.252,108.822 13.77,107.495 13.012,106.866 L1.28,97.137 C0.522,96.508 0.04,95.181 0.04,93.725 Z" id="Shape" fill="#262626" fill-rule="nonzero"></path>
+            <path d="M26.853,137.823 C25.748,137.823 24.853,136.928 24.853,135.823 L24.853,23.823 C24.853,22.718 25.748,21.823 26.853,21.823 C27.958,21.823 28.853,22.718 28.853,23.823 L28.853,135.823 C28.853,136.928 27.957,137.823 26.853,137.823 Z" id="Shape" fill="#262626" fill-rule="nonzero"></path>
+            <g id="Group" transform="translate(23.000000, 9.000000)">
+                <path d="M2.666,3.94 L23.095,3.94" id="Shape" stroke="#FF0000" stroke-width="2"></path>
+                <polygon id="Shape" fill="#FF0000" fill-rule="nonzero" points="6.65 7.33 3.257 3.94 6.65 0.549 3.771 0.549 0.38 3.94 3.771 7.33"></polygon>
+                <polygon id="Shape" fill="#FF0000" fill-rule="nonzero" points="19.111 7.33 22.503 3.94 19.111 0.549 21.99 0.549 25.38 3.94 21.99 7.33"></polygon>
+            </g>
+            <polygon id="Triangle-Copy" stroke="#FFFFFF" fill="#FFFFFF" transform="translate(189.587209, 176.587209) scale(1, -1) rotate(126.000000) translate(-189.587209, -176.587209) " points="185.587209 172.587209 193.587209 174.191029 187.977174 180.587209"></polygon>
+            <polygon id="Triangle" stroke="#FFFFFF" fill="#FFFFFF" transform="translate(191.587209, 5.587209) rotate(126.000000) translate(-191.587209, -5.587209) " points="187.587209 1.58720899 195.587209 3.19102912 189.977174 9.58720899"></polygon>
+            <polygon id="Triangle-Copy-2" stroke="#FFFFFF" fill="#FFFFFF" transform="translate(315.587209, 71.587209) rotate(216.000000) translate(-315.587209, -71.587209) " points="311.587209 67.587209 319.587209 69.1910291 313.977174 75.587209"></polygon>
+            <polygon id="Triangle-Copy-3" stroke="#FFFFFF" fill="#FFFFFF" transform="translate(49.587209, 82.587209) scale(-1, 1) rotate(216.000000) translate(-49.587209, -82.587209) " points="45.587209 78.587209 53.587209 80.1910291 47.9771737 86.587209"></polygon>
+        </g>
+    </g>
+</svg>
