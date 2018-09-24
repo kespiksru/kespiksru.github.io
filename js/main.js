@@ -86,25 +86,22 @@ $(document).ready( function(){
  	})
 	
 	 $('figure').swipe( {
-		swipeStatus:function(event, phase, direction, distance, duration, fingerCount, fingerData, currentDirection)
+		swipeLeft:function(event, phase, direction, distance, duration, fingerCount, fingerData, currentDirection)
 		{	
-			if (phase=="end"){ 
-				if (direction == 'left') {
-					if ($(this).next().is('figure')) {
-						$(this).hide().next().fadeIn();
-						$('.photo-product ul').find('li').removeClass('active').eq($(this).index()+1).addClass('active');
-					}
-					
+				if ($(this).next().is('figure')) {
+					$(this).hide().next().fadeIn();
+					$('.photo-product ul').find('li').removeClass('active').eq($(this).index()+1).addClass('active');
 				}
-				if (direction == 'right') {
-					if ($(this).prev().is('figure')) {
-						$(this).hide().prev().fadeIn();
-						$('.photo-product ul').find('li').removeClass('active').eq($(this).index()-1).addClass('active');
-					}
-				}
-			}
+			
 		},
-		threshold:10
+		swipeRight:function(event, phase, direction, distance, duration, fingerCount, fingerData, currentDirection)
+		{	
+				if ($(this).prev().is('figure')) {
+					$(this).hide().prev().fadeIn();
+					$('.photo-product ul').find('li').removeClass('active').eq($(this).index()-1).addClass('active');
+				}
+		},
+		threshold:0
 	});
 
 	$('.photo-product ul').delegate('li:not(.active)', 'click', function() {
