@@ -556,6 +556,12 @@
 	.sity > span {
 		display:none
 	}
+	.checkout{
+		width: auto;
+	}
+	.c-checkout{
+		width: 80%;
+	}
 	.sity ul {
 		right:auto;left:0
 	}
